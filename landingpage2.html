@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoVibe</title>
+  <link rel="stylesheet" href="landingpage2.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-FtvaJQXRVFExl/0EGFJxZRbWxrvpO/IljhIjUYM2i0fPpk4kmf4uFgKSWa4FUYfB" crossorigin="anonymous">
+</head>
+<body>
+
+<!--------------------------------------------------------------------------------->  
+  <!-- Upper Navigation Bar -->
+  <section id="navbar">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="/Users/itisme/IdeaProjects/productLandingPage/alwxis test ecovibe logo.BMP" alt="Photo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact">Contact</a>            
+        <section class="contact-section">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+<!--------------------------------------------------------------------------------->
+<!--Contact-->
+<dialog id="contact-form-container">
+<div class="contact-form-container">
+    <div class="contact-form">
+      <span class="close-btn" onclick="closeContactForm()">&times;</span>
+      <h2>Contact Us</h2>
+      <form id="contact-form" onsubmit="submitForm(event)">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" id="submitBtn">Submit</button>
+      </form>
+      <div id="confirmation-message" class="confirmation-message"></div>
+    </div>
+  </div>
+</dialog>
+<!--------------------------------------------------------------------------------->  
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1 class="text-center mb-4" ><img src="/Users/itisme/IdeaProjects/productLandingPage/ecovibeLargeWeb.jpg" alt="Photo"></h1>
+      <h2 class="text-center mb-4">Products that are good for you and the environment</h2>
+    </div>
+  </section>
+  <!--------------------------------------------------------------------------------->  
+  <!-- Photo Gallery -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="/Users/itisme/IdeaProjects/productLandingPage/pexels-karolina-grabowska-4465125.jpg" class="img-fluid rounded" alt="Photo 1">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="/Users/itisme/IdeaProjects/productLandingPage/pexels-sarah-chai-7262734.jpg" class="img-fluid rounded" alt="Photo 2">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="/Users/itisme/IdeaProjects/productLandingPage/pexels-vlada-karpovich-6634680.jpg" class="img-fluid rounded" alt="Photo 3">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--------------------------------------------------------------------------------->
+  <!-- Video Section -->
+  <section class="bg-light py-5">
+    <div class = video-center class="container">
+      <div class="video-container">
+        <iframe width="560" height="315" type="video/mp4" src="eco.mp4" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+<!--------------------------------------------------------------------------------->
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About</h2>
+      <h3 class="text-left mb-4">About Us </h3>
+      <p>At EcoVibe, we are passionate about creating innovative solutions that benefit both people and the planet. As an environmentally friendly product company, we believe in the power of sustainable practices to shape a brighter future for generations to come.
+        Our journey began with a simple yet profound idea: to offer high-quality products that minimize harm to the environment while maximizing value for our customers. Guided by this principle, we have dedicated ourselves to developing eco-friendly alternatives across a range of industries, from household essentials to cutting-edge technologies.
+        </p>
+      <h3 class="text-left mb-4">Our Mission </h3>
+      <p>Our mission is to lead the way in sustainable innovation, providing consumers with environmentally conscious choices that make a positive impact on the world. We strive to inspire and empower individuals to adopt eco-friendly lifestyles, one product at a time.
+    </p>
+      <h3 class="text-left mb-4">Commitment to Sustainability</h3>
+      <p>At EcoVibe, sustainability is at the heart of everything we do. We prioritize eco-friendly materials, production processes, and packaging solutions to minimize our carbon footprint and reduce waste. By partnering with like-minded suppliers and manufacturers, we ensure that our products meet the highest environmental standards without compromising on quality or performance.
+    </p>
+      <h3 class="text-left mb-4">Transparency and Accountability</h3>
+      <p>We believe in transparency and accountability in all aspects of our business. From sourcing raw materials to delivering the final product, we maintain open lines of communication and uphold the highest ethical standards. We are committed to continuous improvement, regularly reviewing and refining our practices to align with the latest advancements in sustainability.
+    </p>
+      <h3 class="text-left mb-4">Community Engagement</h3>
+      <p>Beyond our products, we are dedicated to fostering a culture of environmental stewardship within our communities. Through educational initiatives, partnerships, and philanthropic efforts, we aim to raise awareness and promote positive change on a global scale. Together, we can build a more sustainable future for our planet and all its inhabitants.
+    </p>
+    <h3 class="text-left mb-4">Join Us</h3>
+    <p>Join us on our journey towards a greener, more sustainable world. Together, we can make a difference and leave a legacy that future generations will be proud of. Thank you for choosing EcoVibe as your partner in sustainability.
+    </p>
+    <div class="join-us-container">
+        <form id="subscribeForm">
+          <input type="email" id="emailInput" class="email-input" placeholder="Enter your email" required>
+          <button type="submit" class="subscribe-button">Subscribe</button>
+        </form>
+      </div>
+  </section>
+<!--------------------------------------------------------------------------------->
+  <!-- FAQ Section -->
+  <section id="faq">
+  <div class="container">
+    <h1 class="text-center mb-4"> FAQ</h1>
+    <button class="accordion">What does "eco-friendly" mean?</button>
+      <div class="accordion-content">
+        <p>Eco-friendly, or environmentally friendly, refers to products or practices that do not harm the environment or deplete natural resources during their production, use, or disposal. These products are designed to have minimal impact on the planet.</p>
+    </div>
+
+    <button class="accordion">Why should I choose eco-friendly products?</button>
+      <div class="accordion-content">
+        <p>Choosing eco-friendly products helps reduce pollution, conserve natural resources, and minimize your carbon footprint. By supporting sustainable practices, you contribute to a healthier planet for future generations.</p>
+    </div>
+
+    <button class="accordion">Are your products made from recycled materials?</button>
+      <div class="accordion-content">
+        <p>Many of our products are made from recycled materials, and we prioritize sourcing materials that are renewable, biodegradable, or sustainably harvested. Look for product descriptions or labels indicating recycled content.</p>
+    </div>
+
+    <button class="accordion">How can I ensure that the products I buy are truly eco-friendly?</button>
+      <div class="accordion-content">
+        <p>We carefully vet all products to ensure they meet our eco-friendly standards. Look for certifications such as USDA Organic, Fair Trade, Forest Stewardship Council (FSC), or EcoCert. Additionally, check product descriptions for details on materials, manufacturing processes, and sustainability initiatives.</p>
+    </div>
+
+    <button class="accordion">Do you offer plastic-free packaging?</button>
+      <div class="accordion-content">
+        <p>Yes, we strive to minimize plastic waste by using recyclable or biodegradable packaging materials whenever possible. We also encourage customers to reuse or recycle packaging materials to further reduce their environmental impact.</p>
+    </div> 
+    
+    <button class="accordion"> Are your products tested on animals?</button>
+      <div class="accordion-content">
+        <p>No, we are committed to cruelty-free practices, and none of our products are tested on animals. We support brands that prioritize ethical and humane testing methods.</p>
+    </div>
+
+    <button class="accordion">What steps do you take to offset your carbon footprint?</button>
+      <div class="accordion-content">
+        <p>We actively work to minimize our carbon footprint by implementing energy-efficient practices in our operations, sourcing products locally when possible, and supporting carbon offset initiatives. Additionally, we regularly assess and reduce our environmental impact through ongoing sustainability efforts.</p>
+    </div>
+
+    <button class="accordion">How can I contact your customer support team?</button>
+      <div class="accordion-content">
+        <p>Our dedicated customer support team is here to assist you with any questions or concerns. You can reach us via email at support@ecovibe.com. We strive to respond promptly to all inquiries.</p>
+    </div>
+</section>
+<!----------------------------------------------------------------------------------->
+  <!-- Footer -->
+   <!-- Lower Navigation Bar -->
+<section id="navbar"></section>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="/Users/itisme/Pictures/alwxis test ecovibe logo.BMP" alt="Photo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact2">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+<!------------------------------------------------------------------------------------>
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>&copy; EcoVibe 2024. All Rights Reserved.</p>
+    </div>
+  </footer>
+ <!--------------------------------------------------------------------------------------> 
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="landingpage2.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
